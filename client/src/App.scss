@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.input {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  outline: none;
+}
+.btn {
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.sendMsgForm {
+  display: flex;
+}
+
+.currentUser-msg {
+  background: rgb(30, 62, 165);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  clear: right;
+}
+.anotherUser-msg {
+  background: rgb(128, 123, 123);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
